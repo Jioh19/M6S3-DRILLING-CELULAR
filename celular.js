@@ -1,3 +1,7 @@
+//TODO Crea un nuevo archivo llamado celular.js, que contenga y exporte un objeto. El objeto
+//TODO debe tener como contenido pares llave - valor de, por lo menos, cinco características de
+//TODO tu celular, más un sexto ítem que contenga una fecha generada por moment. 
+
 const moment = require("moment");
 
 const miCelular = {
@@ -10,4 +14,3 @@ const miCelular = {
 }
 
 exports.miCelular = miCelular;
-console.log(miCelular);
